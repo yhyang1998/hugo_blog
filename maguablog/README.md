@@ -1,20 +1,20 @@
 # Directory Structure
 
-- **maguablog**
-    |---archetypes/ &emsp;&emsp;&emsp;&emsp; 放模板
-    |---content/ &emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 放文章
-    &emsp;|---draft/    
-    &emsp;|---post/
-    |---data/
-    |---layout/
-    |---public/ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 放render完的東西(**[Magua's Adventure](https://sheeeep914.github.io/)**)
-    |---resources/
-    |---static/
-    &emsp;|---images/ &emsp;&emsp;&emsp;&emsp;&emsp; 放圖片(封面、個人主頁)
-    |---themes/
-    &emsp;|---tranquilpeak/
-    |---comfig.toml
-    |---README.md
+- **maguablog**  
+    |---archetypes/ &emsp;&emsp;&emsp;&emsp; 放模板  
+    |---content/ &emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 放文章  
+    &emsp;|---draft/      
+    &emsp;|---post/  
+    |---data/  
+    |---layout/  
+    |---public/ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 放render完的東西(**[Magua's Adventure](https://sheeeep914.github.io/)**)  
+    |---resources/  
+    |---static/  
+    &emsp;|---images/ &emsp;&emsp;&emsp;&emsp;&emsp; 放圖片(封面、個人主頁)  
+    |---themes/  
+    &emsp;|---tranquilpeak/  
+    |---comfig.toml  
+    |---README.md  
 
 ---
 
@@ -32,9 +32,7 @@ $ hugo new draft/my-first-draft.md
 #this will render a post named "My First Post" in the content/draft/ directory
 ```
 
-:::info
-**Note:** Draft will not be shown on the webpage! 
-:::
+> ***NOTE:***  Draft will not be shown on the webpage! 
 
 ---
 
