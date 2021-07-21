@@ -1,0 +1,4 @@
+[submodule "maguablog/public"]
+	path = maguablog/public
+	url = https://github.com/sheeeep914/sheeeep914.github.io.git
+	branch = main
