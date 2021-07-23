@@ -2,11 +2,8 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-categories:
-- category
-tags:
-- tag1
-- tag2
+categories: ["category"]
+tags:   #沒有tag就不會顯示在頁面上
 thumbnailImagePosition: left
 thumbnailImage: images/waves.png       #complete URL
 coverImage: waves.png                  #complete URL
